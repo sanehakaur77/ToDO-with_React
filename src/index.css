@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+input{
+  height: 40px;
+  width:50%;
+}
+#btn{
+background-color: blueviolet;
+width: 20%;
+border-radius: 15px;
+height: 40px;
+border: none;
+}
+
+.box2{
+  display: flex;
+  gap:20px;
+}
+.lists{
+ 
+  width: 100%;
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+.list{
+ width: 200px;
+  background-color: rgb(173, 104, 237);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px ;
+}
+.dates{
+  height:30px;
+  width: 100px;
+  background-color:white;
+  box-shadow: 10px 10px 10px  rgba(0, 0,0, 0.2);
+  
+}
+#del-btn{
+  border:none;
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 100px;
+  height:35px;
+  color: aliceblue;
+}
+.cross{
+  padding-left: 20px;
+}
+
+
